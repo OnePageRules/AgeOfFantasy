@@ -1,49 +1,110 @@
-Age of Fantasy by OnePageRules
-==================
+![CI](https://github.com/sprutton1/GrimdarkFutureBattlescribe/workflows/CI/badge.svg?branch=master)
 
-[![GitHub release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases/latest)
-[![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/TemplateDataRepo/latest.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases)
-[![Open Bug issues](https://img.shields.io/github/issues/BSData/TemplateDataRepo/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/TemplateDataRepo/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![GitHub contributors](https://img.shields.io/github/contributors/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/graphs/contributors)
-[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/pulse/monthly)
+<!-- TOC -->
+- [Introduction](#introduction) 
+- [How do I use these files?](#how-do-i-use-these-files)
+   - [Instructions](#instructions)
+- [How can I help?](#how-can-i-help)
+   - [Adding an army](#adding-an-army)
+      - [Guidelines](#guidelines)
+      - [What's Done](#whats-done)
+   - [Reporting an issue](#reporting-an-issue)
+- [Credits](#credits)
+<!-- /TOC -->
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+# Introduction
 
-#### Contents ####
+Welcome to the Battlescribe repo for [OnePageRules'](https://onepagerules.com/)
+[Age of Fantasy](https://onepagerules.com/portfolio/age-of-fantasy/). This is
+a set of files to use with the [Battlescribe](https://battlescribe.net/) app to
+build army lists.
 
-* [Overview][]
-* [Links][]
+You can always reach out to me on
+[Discord](https://discordapp.com/channels/610199287346888743/610199287346888746)
+or the [OPR Forum](http://forum.onepagerules.com/) if you need something.
 
-## Overview ##
-[Overview]: #overview
+# How do I use these files?
 
-__What's this?__
+In order to use these files, you must manually add the index to Battlescribe and
+then refresh the data.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [Getting Started wiki][]
+The index is hosted at:
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+https://age-of-fantasy.s3.amazonaws.com/index.bsi
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+## Instructions
 
-__I found a bug!__ / *I have another request*
+[Instructions for Desktop](./desktop.md)
 
-Great, thank you! Now, you have some options:
+[Instructions for Mobile](./mobile.md)
 
-1. [Report it on AppSpot][] - it's anonymous and no account is needed - on downside, you'll need to manually check on the progress of your issue.
+# How can I help?
 
-2. [Open issue directly][] (green `New Issue` in upper-right, GitHub account required) - you can track the progress, get notifications, help us by answering possibly follow-up questions and help us better!
+## Adding an army
 
-## Links ##
-[Links]: #links
+Open a Github issue on this page with which army you would like to see added and
+assign yourself to it. We can track progress on those issues.
 
-* [BattleScribe homepage][]
-* [BattleScribe Data on Appspot][]
-* [Getting Started wiki][]
+Then, pick an army and create a datafile for it! I suggest using the Dwarves army as an example. Once you are done, open a Pull Request and I will
+review the changes before shipping them up to be indexed.
 
-[Report it on Appspot]: http://battlescribedata.appspot.com/#/repo/TemplateDataRepo
-[Open Issue directly]: https://github.com/BSData/TemplateDataRepo/issues
-[BattleScribe homepage]: http://www.battlescribe.net/
-[BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
-[Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started#contributing
+Also, if you make progress on a list, make sure you update the "What's Done"
+table!
+
+### Guidelines
+
+1. The "Publication" entry should contain the name of the list you're
+   implementing **including** the version (so we know what versions are
+   current).
+
+2. You should never add anything to the game system file (.gst) that's not in
+   the main ruleset (except weapons).
+
+3. Weapons found in multiple lists should be added to the game system file.
+   Lists should use the entries from the game system file instead of entries in
+   the army file itself in this case.
+
+4. When in doubt on how to format something, feel free to ask!
+
+### What's Done
+
+| Army | Version | Progress | Author |
+|---|---|---|---|
+|Game System|v2.10|Done|Darguth|
+|Beastmen|v2.4|Done|cartag|
+|Chivalrous Kingdoms|v2.5|Done|Darguth|
+|Dark Elves|v2.6|Done|Darguth|
+|Deap-Sea Elves|v2.5|Done|Darguth|
+|Dwarves|v2.9|Done|Darguth|
+|Eternal Wardens|v2.7|Done|PerramUnderhill|
+|Ghostly Undead|v2.5|Done|Darguth|
+|Giant Tribes|v2.0|Done|Darguth|
+|Goblins|v2.10|Done|Darguth|
+|Halflings|v2.3|Done|Darguth|
+|Havoc Dwarves|v2.2|Done|Darguth|
+|Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
+|High Elves|v2.7|Done|Darguth|
+|Humans|v2.7|Done|Darguth|
+|Kingdom of Angels|v2.3|Done|Perram|
+|Mummified Undead|v2.8|Done|Darguth|
+|Ogres|v2.4|Done|Darguth|
+|Orcs|v2.7|Done|Darguth|
+|Ossified Undead|v2.3|Done|kuroi-usagi|
+|Ratmen|v2.12|Done|Darguth|
+|Rift Daemons|v2.8|Done|cartag|
+|Saurians|v2.8|Done|Darguth|
+|Shadow Stalkers|v2.2|Done|Darguth|
+|Sky-City Dwarves|v2.7|Done|Darguth|
+|Vampiric Undead|v2.8|Done|Darguth|
+|Volcanic Dwarves|v2.8|Done|kuroi-usagi|
+|Wood Elves|v2.7|Done|Darguth|
+
+## Reporting an issue
+
+If you find something wrong with any of the existing army lists, please open a
+Github issue so that myself or the owner of that file can address it.
+
+# Credits
+
+Scott Prutton for creation and maintenance of the repo and build infrastructure.
+Darguth, cartag, Perram and kuroi-usagi for army catalog authorship.
