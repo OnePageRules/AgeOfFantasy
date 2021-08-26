@@ -75,6 +75,7 @@ table!
 |Chivalrous Kingdoms|v2.5|Done|Darguth|
 |Dark Elves|v2.6|Done|Darguth|
 |Deap-Sea Elves|v2.5|Done|Darguth|
+|Duchies of Vinci|v2.2|Started|strongbif|
 |Dwarves|v2.9|Done|Darguth|
 |Eternal Wardens|v2.7|Done|PerramUnderhill|
 |Ghostly Undead|v2.5|Done|Darguth|
@@ -84,7 +85,7 @@ table!
 |Havoc Dwarves|v2.2|Done|Darguth|
 |Havoc Warriors|Main v2.9 - Disciples v2.10|Done|cartag (Main), Darguth (Disciples)|
 |High Elves|v2.7|Done|Darguth|
-|Humans|v2.7|Done|Darguth|
+|Humans|v2.9|Done|strongbif|
 |Kingdom of Angels|v2.3|Done|Perram|
 |Mummified Undead|v2.8|Done|Darguth|
 |Ogres|v2.4|Done|Darguth|

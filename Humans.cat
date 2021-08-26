@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bef1-21cb-1428-cf3e" name="Humans" revision="2" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bef1-21cb-1428-cf3e" name="Humans" revision="3" battleScribeVersion="2.03" authorName="strongbif" authorContact="Discord: strongbif#6616" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="b192-e00b-676c-7d3c" name="Humans v2.7"/>
+    <publication id="b192-e00b-676c-7d3c" name="Humans v2.9"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="21e4-b253-503e-2b02" name="Captain" hidden="false" collective="false" import="true" type="unit">
@@ -1361,6 +1361,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="32a5-d2d8-e319-d4ad" name="Array of Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
