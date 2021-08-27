@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bef1-21cb-1428-cf3e" name="Humans" revision="2" battleScribeVersion="2.03" authorName="Darguth" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bef1-21cb-1428-cf3e" name="Humans" revision="3" battleScribeVersion="2.03" authorName="strongbif" authorContact="Discord: strongbif#6616" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="b192-e00b-676c-7d3c" name="Humans v2.7"/>
+    <publication id="b192-e00b-676c-7d3c" name="Humans v2.9"/>
   </publications>
   <selectionEntries>
     <selectionEntry id="21e4-b253-503e-2b02" name="Captain" hidden="false" collective="false" import="true" type="unit">
@@ -82,7 +82,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="d389-9e47-7e9c-604d" name="Melee Weapons (Heroes)" hidden="false" collective="false" import="true" targetId="b67d-5696-87b7-24f9" type="selectionEntryGroup"/>
+        <entryLink id="d389-9e47-7e9c-604d" name="Melee Weapon (Heroes)" hidden="false" collective="false" import="true" targetId="b67d-5696-87b7-24f9" type="selectionEntryGroup"/>
         <entryLink id="5563-9908-e694-3333" name="Mount (Heroes)" hidden="false" collective="false" import="true" targetId="a384-e900-eacf-324e" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
@@ -159,11 +159,11 @@
           </constraints>
           <rules>
             <rule id="a0f9-1fb8-1867-7080" name="Ballistic Master" publicationId="b192-e00b-676c-7d3c" hidden="false">
-              <description>When the hero is activated pick one friendly Artillery unit within 3”, which gets +1 to its next shooting rolls.</description>
+              <description>When the hero is activated pick one friendly Artillery unit within 6”, which may either get +2 to its shooting rolls or move up to 6” during its next activation.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="25.0"/>
+            <cost name="pts" typeId="567f-6468-66c6-2ea2" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -378,25 +378,6 @@
                   </conditions>
                 </modifier>
               </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="6f05-3538-d866-48da" name="Upgrades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="35b6-d9f7-9ed5-1b4b" name="Harpoon" hidden="false" collective="false" import="true" targetId="c27c-a967-632d-29d5" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="4d20-4c89-6ed5-2782" value="2.0">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d20-4c89-6ed5-2782" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="10.0"/>
-              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -1361,6 +1342,9 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="567f-6468-66c6-2ea2" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="32a5-d2d8-e319-d4ad" name="Array of Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
