@@ -75,7 +75,7 @@ table!
 |Chivalrous Kingdoms|v2.5|Done|Darguth|
 |Dark Elves|v2.6|Done|Darguth|
 |Deap-Sea Elves|v2.5|Done|Darguth|
-|Duchies of Vinci|v2.2|Started|strongbif|
+|Duchies of Vinci|v2.3|Started|strongbif|
 |Dwarves|v2.9|Done|Darguth|
 |Eternal Wardens|v2.7|Done|PerramUnderhill|
 |Ghostly Undead|v2.5|Done|Darguth|

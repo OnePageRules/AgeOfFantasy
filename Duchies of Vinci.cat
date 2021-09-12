@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e1be-29d9-cfc0-1160" name="Duchies of Vinci" revision="1" battleScribeVersion="2.03" authorName="strongbif" authorContact="Discord: strongbif#6616" library="false" gameSystemId="a88e-2b4c-d1b5-d4d3" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="f003-157f-21f7-f688" name="Guard Captain" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="013d-3c3e-ff75-a49d" name="Heroes" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b858-3b82-e804-6566" name="Master Assassin" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ef14-2895-d4dd-967c" name="New CategoryLink" hidden="false" targetId="4b4e-fbe0-5211-ae65" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="567f-6468-66c6-2ea2" value="75.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
